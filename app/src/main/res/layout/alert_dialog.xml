@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:elevation="10dp"
+    android:background="@drawable/rounded_corners">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:text="Add a new alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:orientation="horizontal"
+        android:elevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <RadioButton
+            android:id="@+id/rbAlert1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:elevation="5dp"
+            android:adjustViewBounds="true"
+            android:button="@mipmap/ic_launcher_foreground"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+        <!--android:text="RadioButton"-->
+
+        <RadioButton
+            android:id="@+id/rbAlert2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:elevation="5dp"
+            android:adjustViewBounds="true"
+            android:button="@mipmap/ic_launcher_foreground"
+            android:scaleType="fitCenter"
+            android:scaleX=".7"
+            android:scaleY=".7" />
+
+        <RadioButton
+            android:id="@+id/rbAlert3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:elevation="5dp"
+            android:adjustViewBounds="true"
+            android:button="@mipmap/ic_launcher_foreground"
+            android:scaleType="fitCenter"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/alert_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:elevation="3dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#FFF6F6F6"
+        android:hint="Describe here what happened"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
