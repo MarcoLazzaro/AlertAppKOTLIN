@@ -18,7 +18,7 @@
 * aprire Visual Studio Code
 * aprire la cartella Backend nell'IDE
 * aprire un terminale (CMD) da Visual studio code
-* Aassicurasi di trovarsi nella cartella "/backend"
+* Assicurasi di trovarsi nella cartella "/backend"
 * installare le dependencies tramite comando: npm install
 * creare .env file nella directory backend con il seguente codice:
 ```
