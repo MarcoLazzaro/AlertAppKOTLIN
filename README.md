@@ -4,6 +4,7 @@
 ## Anno: 2020/2021
 
 **IDE utilizzato: Visual Studio Code (come amministratore) per la backend**
+
 **IDE utilizzato: AndoidStudio per l'applicazione andoid nativa**
 
 **OPERATIVE SYSTEM: Windows 10 Pro**
