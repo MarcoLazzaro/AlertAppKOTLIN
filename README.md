@@ -38,4 +38,4 @@ PORT=4000
 *in caso di errore durante la fase di build, disabilitare l'antivirus momentaneamente ha risolto il problema. Errore: "AAPT: error failed writing to R.txt: the data is invalid"*
 
 # Link al Google Slides per la presentazione
-https://docs.google.com/presentation/d/10oafE8tPHnoPwgduUms7-uShSpM-sB-iZ4txF4FHlcE/edit?usp=sharing
+https://docs.google.com/presentation/d/1u-xK-FnpwtInk13xltAb72vdMeat7shh-6qxe4-G2xk/edit?usp=sharing
